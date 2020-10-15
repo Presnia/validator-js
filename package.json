@@ -1,0 +1,11 @@
+{
+  "name": "validator-js",
+  "version": "1.0.0",
+  "description": "validator-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Dzebysh",
+  "license": "MIT"
+}
