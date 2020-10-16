@@ -1,10 +1,10 @@
 /* eslint-disable import/named */
 /* eslint-disable import/extensions */
 /* eslint-disable no-console */
-import { checkType, nonEmptyString, numberInRange } from "./checkers.js";
-import { validateObject } from "./validators.js";
-import dumpErrors from "./showErrors.js";
-import { userScheme } from "./compareScheme.js";
+import { checkType, nonEmptyString, numberInRange } from "./Checkers/checkers.js";
+import validateObject from "./Validators/validateObject.js";
+import dumpErrors from "./Errors/showErrors.js";
+import { userScheme } from "./CompareScheme/compareScheme.js";
 
 const user = {
   firstName: "test",

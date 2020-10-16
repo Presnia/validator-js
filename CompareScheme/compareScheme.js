@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 /* eslint-disable valid-typeof */
 /* eslint-disable no-console */
-import { checkType, nonEmptyString, numberInRange } from './checkers.js';
+import { checkType, nonEmptyString, numberInRange } from '../Checkers/checkers.js';
 
 const userScheme = {
   firstName: [

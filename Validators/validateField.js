@@ -1,7 +1,7 @@
 /* eslint-disable valid-typeof */
 /* eslint-disable no-console */
 
-export function validateFiled(object, key, keyDescription) {
+export default function validateFiled(object, key, keyDescription) {
   const errorList = [];
 
   const objectKeyValue = object[key];
@@ -18,12 +18,3 @@ export function validateFiled(object, key, keyDescription) {
   return errorList;
 }
 
-export function validateObject(object, objectScheme) {
-  const errorList = [];
-
-  Object.keys(objectScheme).forEach((key) => {
-    errorList.push(...validateFiled(object, key, objectScheme[key]));
-  });
-
-  return errorList;
-}
